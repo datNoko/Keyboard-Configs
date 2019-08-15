@@ -1,6 +1,7 @@
 ## My DZ65rgb Config ##
 #!! This Keymap is designed for the German ISO Layout 
 The idea about this Keymap is to use the German Layout but still be able to use ANSI keys
+All Keymaps in here are the same but with different RGB configs to better suit the Keycap Set
 
 Layer1: Normal ISO Keys  
 <pre>
