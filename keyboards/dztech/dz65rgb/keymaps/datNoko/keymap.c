@@ -15,7 +15,7 @@
 #define ISO_BAR RALT(KC_NUBS)		//this symbol | //
 #define FN_EURO RALT (KC_E)			// simple € symbol
 #define FN_AT RALT (KC_Q)			// simple @ symbol
-#define FN_dmenu RALT(KC_RBRC) //
+#define ISO_TILDA RALT (KC_RBRC) // ~ 
 // #define TAPPING_TERM 80
 
 //Tap Dance Declarations
@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |----------------------------------------------------------------.-------|
    * |Tab  |  @|  UP|  €|  No|  No|  No|  No|  No|  No|  No| [ | ]|  \  |F16|
    * |------------------------------------------------------------------------| 
-   * |FN     |Left|Down|Right| No|  No|  No|  No|  No|  No| ;|  '|Return |F17 |
+   * |FN     |Left|Down|Right| No|  No|  No|  No|  No|  No| ;|  '|   ~   |F17 |
    * |------------------------------------------------------------------------|
    * |FN(3)   |  No|  No|  No|  No|  No|  No|  No|  < |  > |  / | No| No| No  |
    * |------------------------------------------------------------------------|
@@ -76,7 +76,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		[_LAYER2] = LAYOUT_65_ansi( /* FN2 */
 			KC_GRV,      KC_F1,    KC_F2,   KC_F3,  KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_F11,  KC_F12,  KC_DEL,   KC_HOME,\
 			KC_TAB,      FN_AT,     KC_UP,     FN_EURO,  KC_NO,  POETRADE,  KC_NO,    KC_NO,  KC_NO,    KC_NO,     KC_NO,     ISO_LBRAC, ISO_RBRAC, ISO_BSLA, KC_F16,\
-			KC_TRNS,     KC_LEFT,  KC_DOWN, KC_RIGHT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, ISO_COMM,  ISO_QUOT,          EEP_RST,  KC_F17,\
+			KC_TRNS,     KC_LEFT,  KC_DOWN, KC_RIGHT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, ISO_COMM,  ISO_QUOT,          ISO_TILDA,  KC_F17,\
 			MO(3),       KC_NO,     KC_NO,     KC_NO,  KC_NO,  KC_NO,  KC_NO,    KC_NO,  KC_NUBS, CT_L_ANGLE,   ISO_SLA,  KC_NO,           KC_NO,     KC_NO,\
 			KC_NO,       KC_NO,  KC_NO,                KC_NO,                KC_NO, KC_NO,    KC_NO,    KC_F13,           KC_F14,   KC_F15),
 				 /* Keymap: (Funktion Layer) Default Layer
