@@ -1,9 +1,16 @@
 # Keyboard-Configs
+##The Ultimate ANSI Layout for DE-ISO users
 
-Here you will find my QMK Keymap files for me Keyboards i use. The folder structure is the same as in QMK.  
-Most of my Configs are written for DE-ISO so that the FN Layers enable the ANSI Keys
+Here you will find my QMK Keymap files for my Keyboards i use. The folder structure is the same as in QMK.  
+Most of my Configs are written for DE-ISO so that the FN Layers enable the US-ANSI Keys
 
-Layer 1 
+The reason for the F13 to F17 Keys is that those keys are used for my Foobar keymaps. That way i can control them without interfering with other Programs.
+F16 and F17 is used for Volume Up and Down
+F13, F14 and F15 are Previous Track, Play/Pause, Next Track.
+
+The third layer have normal media keys placed on the arrow keys.
+
+Layer 0 
 
 		  ,-----------------------------------------------------------------.
 		  |Esc~| 1|  2|  3|  4|  5|  6|  7|  8|  9|  0|  ß|  ´|Backsp |F24  |
@@ -17,7 +24,7 @@ Layer 1
  		  |Ctrl|Gui |Alt |      Space      | Alt| FN| Ctrl| Left|Down |Right| 
  	 	  `-----------------------------------------------------------------'
 
-ANSI Layer // Accessed with [Caps Lock]
+ANSI Layer (2) // Accessed with [Caps Lock]
 
 		,------------------------------------------------------------------------.
 		|Esc~| F1| F2| F3| F4 | F5 | F6 | F7 | F8 | F9 | F10 | F11| F12|Del |Home| 
@@ -31,7 +38,7 @@ ANSI Layer // Accessed with [Caps Lock]
 		|Ctrl|Gui |Alt |      Space                   | Alt| FN |Ctrl|F13|F14|F15|
 		`------------------------------------------------------------------------'
 
-Second ANSI Layer for Secondary ANSI Functions // Accessed with [Caps Lock] + [Shift]
+Second ANSI Layer (3) for Secondary ANSI Functions // Accessed with [Caps Lock] + [Shift]
 
 		 ,------------------------------------------------------------------------.
 		 |Esc~| F1| F2| F3| F4 | F5 | F6 | F7 | F8 | F9 | F10 | F11| F12|Del |Home| 
@@ -40,7 +47,7 @@ Second ANSI Layer for Secondary ANSI Functions // Accessed with [Caps Lock] + [S
 		 |------------------------------------------------------------------------| 
 		 |TRNS   |Left|Down|Right| No|  No|  No|  No|  No| No| No| No|Return |F17 |
 		 |------------------------------------------------------------------------|
-		 |    No  |  No|  No|  No|  No|  No|  No|  No|  No|  No| No|  No  | No| No|
+		 |    No  |  No|  No|  Calc| No| No|  No|  No|  No|  No| No|  No  | No| No|
 		 |------------------------------------------------------------------------|
-		 | No | No | No |      No                      | No | No | No |F13|F14|F15|
+		 | No | No | No |      No     | No| No| No |Prev.Tra.|Play/Pause|Next Tra.|
 		 `------------------------------------------------------------------------'
