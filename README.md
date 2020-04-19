@@ -1,5 +1,5 @@
 # Keyboard-Configs
-##The Ultimate ANSI Layout for DE-ISO users
+## The Ultimate ANSI Layout for DE-ISO users
 
 Here you will find my QMK Keymap files for my Keyboards i use. The folder structure is the same as in QMK.  
 Most of my Configs are written for DE-ISO so that the FN Layers enable the US-ANSI Keys
