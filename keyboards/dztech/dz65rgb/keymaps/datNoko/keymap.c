@@ -87,17 +87,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------------------------------------------------------------------------| 
    * |TRNS   |Left|Down|Right| No|  No|  No|  No|  No| No| No| No|Return |F17 |
    * |------------------------------------------------------------------------|
-   * |    No  |  No|  No|  No|  No|  No|  No|  No|  No|  No| No|  No  | No| No|
+   * |    No  |  No| No| Calc|  No|  No|  No|  No|  No|  No| No|  No  | No| No|
    * |------------------------------------------------------------------------|
-   * | No | No | No |      No                      | No | No | No |F13|F14|F15|
+   * | No | No | No |      No     | No | No | No |Prev.Tr.|Play/Pause|Next.Tr.|
    * `------------------------------------------------------------------------'
    */
 		[_LAYER3] = LAYOUT_65_ansi( /* FN3 */
 			KC_GRV,       KC_F1,    KC_F2,   KC_F3,  KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_F11,  KC_F12,  KC_DEL,   KC_HOME,\
 			KC_TAB,       FN_AT,     KC_UP,     KC_NO,  KC_NO,  KC_NO,  KC_NO,    KC_NO,  KC_NO,    KC_NO,     KC_NO,     SwirlLBRAC,  SwirlRBRAC, ISO_BAR, KC_F16,\
 			KC_TRNS,     KC_LEFT,  KC_DOWN, KC_RIGHT, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,  KC_NO,          EEP_RST,  KC_F17,\
-			KC_NO,       KC_NO,     KC_NO,     KC_NO,  KC_NO,  KC_NO,  KC_NO,    KC_NO,  KC_NO, KC_NO,   KC_NO,  KC_NO,           KC_NO,     KC_NO,\
-			KC_NO,       KC_F19,  KC_NO,                KC_NO,                KC_NO, KC_NO,    KC_NO,    KC_F13,           KC_F14,   KC_F15),
+			KC_NO,       KC_NO,     KC_NO,     KC_CALC,  KC_NO,  KC_NO,  KC_NO,    KC_NO,  KC_NO, KC_NO,   KC_NO,  KC_NO,           KC_NO,     KC_NO,\
+			KC_NO,       KC_F19,  KC_NO,                KC_NO,                KC_NO, KC_NO,    KC_NO,    KC_MPRV,           KC_MPLY,   KC_MNXT),
 };
 
 
